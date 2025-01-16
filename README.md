@@ -21,11 +21,24 @@ Les données proviennent de fichiers CSV tels que :
 - `sols.csv`
 
 ### Description des Données
-Les données incluent des informations sur :
-- Le rendement
-- Le pH
-- La matière organique
-- Et d’autres paramètres agricoles.
+Les données incluent les paramètres suivants :
+1. **Rendement** : Quantité produite par parcelle agricole.
+2. **pH** : Niveau d'acidité ou d'alcalinité du sol.
+3. **Matière Organique** : Pourcentage de matière organique dans le sol, influençant la fertilité.
+4. **Température** : Mesurée quotidiennement pour analyser l'effet climatique.
+5. **Humidité du Sol** : Taux d'humidité mesuré pour chaque parcelle.
+6. **Type de Sol** : Classification du sol en fonction de ses caractéristiques.
+7. **Historique de Production** : Données sur les rendements des années précédentes.
+8. **Précipitations** : Quantité de pluie enregistrée sur chaque parcelle.
+9. **Pesticides et Fertilisants Utilisés** : Quantité et type d'intrants appliqués.
+10. **Autres Paramètres** : 
+    - Texture du sol (argile, sable, limon).
+    - Drainage du sol.
+    - Profondeur racinaire.
 
 ### Prétraitement
-Les données ont été nettoyées pour gérer les valeurs manquantes et normalisées pour l’analyse.
+Les étapes de prétraitement incluent :
+1. **Nettoyage des Données** : Suppression ou imputation des valeurs manquantes.
+2. **Normalisation** : Mise à l'échelle des données pour garantir une analyse uniforme.
+3. **Filtrage** : Élimination des données aberrantes pour améliorer la qualité des analyses.
+4. **Fusion des Sources** : Intégration des différentes sources de données en un seul ensemble cohérent.
